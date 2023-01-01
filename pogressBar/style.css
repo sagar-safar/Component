@@ -13,4 +13,14 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: rgb(107, 224, 107);
+    position: relative;
+}
+
+.strip{
+    width:17px;
+    height: 20px;
+    transform: skewX(41deg);
+    background-color: rgb(214, 202, 135);
+    position: absolute;
+    left:10%;
 }
