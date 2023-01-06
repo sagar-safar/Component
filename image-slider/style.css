@@ -1,0 +1,37 @@
+div{
+    width:400px;
+    height: 300px;
+    position: relative;
+
+}
+
+.prev{
+    position: absolute;
+    top:156px;
+    left:5px;
+    z-index: 2;
+}
+
+.next{
+    position: absolute;
+    top:156px;
+    left:345px;
+    z-index: 2;
+}
+
+img{
+    width: 400px;
+    height:300px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+    transition-delay: 200ms;
+
+}
+
+
+.top{
+    opacity: 1;
+    transition-delay: 0ms;
+}
+
